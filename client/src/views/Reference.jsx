@@ -19,10 +19,15 @@ import image14 from "../assets/img14.png";
 import image15 from "../assets/img15.png";
 import image16 from "../assets/img16.png";
 import image17 from "../assets/img17.png";
+import image18 from "../assets/img18.png";
+import image19 from "../assets/img19.png";
+import image20 from "../assets/img20.png";
+import image21 from "../assets/img21.png";
+import image22 from "../assets/img22.png";
 import FadeIn from "../components/FadeIn";
 
 const Reference = () => {
-  const images = [imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven, imageEight, imageNine, imageTen, image11, image12, image13, image14, image15, image16, image17];
+  const images = [imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven, imageEight, imageNine, imageTen, image11, image12, image13, image14, image15, image16, image17,image18,image19,image20,image21,image22];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
