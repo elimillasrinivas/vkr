@@ -24,15 +24,15 @@ const Care = () => {
             <FadeIn key={i} delay={(i + 1) * 0.2} direction="left">
               <div className="flex flex-col xs:flex-row gap-6 items-center xs:items-start">
                 <a href={`${item.link}`}>
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="h-[70px] w-[70px] mt-10"
-                />
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="h-[30px] w-[30px] mt-5"
+                  />
                 </a>
-                
+
                 <div>
-                  <h3 className="text-center xs:text-start mb-2 text-2xl lg:text-[28px] text-fontBlack font-medium mt-10">
+                  <h3 className="text-center xs:text-start mb-2 text-2xl lg:text-[28px] text-fontBlack font-medium mt-3">
                     {item.title}
                   </h3>
                   <h6 className="text-center xs:text-start text-base lg:text-lg text-fontGray font-medium mt-3">
@@ -45,7 +45,7 @@ const Care = () => {
         </div>
 
         <FadeIn delay={0.6} direction="right">
-          <img src={imageFour} alt="plants" width={900}/>
+          <img src={imageFour} alt="plants" width={1000} />
         </FadeIn>
       </div>
     </div>

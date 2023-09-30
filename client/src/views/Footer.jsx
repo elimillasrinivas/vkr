@@ -5,6 +5,7 @@ import {
   footerLinksColumnThree,
   newsletter,
 } from "../data";
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -133,7 +134,8 @@ const Footer = () => {
 
         <h6 className="text-white text-center text-base lg:text-lg">
           &copy; VKR - All rights reserved <br />
-          developed by <a href="tel:7989288189">Srinivas Elimilla</a>
+          developed by <a href="https://srinivaselimilla.tech/" class="d-flex hover:text-orange-300">Srinivas Elimilla <span style={{color:"orange", fontSize:"12.5px",letterSpacing:"1px"}}>(click here)</span></a>
+          
         </h6>
       </div>
     </div>

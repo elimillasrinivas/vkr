@@ -49,8 +49,7 @@ const Services = () => {
         ))}
       </div>
       <div className="text-center mt-4">
-        <p className="mb-2">For more information</p>
-        <p className="mt-2 mb-3">click here to chat on WhatsApp</>
+        <p className="mb-2">For more information, click here to chat on WhatsApp:</p>
         <a href="https://wa.me/8639552901">
           <img src={whatsappIcon} alt="WhatsApp" className="w-10 h-10 inline-block" />
         </a>
